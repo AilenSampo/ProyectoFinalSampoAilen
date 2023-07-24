@@ -12,6 +12,14 @@ p{
 body{
 margin: 0;
 padding: 0; 
+    nav{
+        .icons-px{
+            height: 100px;
+            width: auto;
+            padding: 20px;
+            margin-left: 0;
+        }
+    }
     header {
         overflow: hidden;
             image{
@@ -45,27 +53,16 @@ padding: 0;
         object-fit: cover;
         place-items: center;
     }
-}
-
-
-.icons-px{   /*logo*/
-    height: 100px;
-    width: auto;
-    padding: 20px;
-    margin-left: 0;
-}
-
-footer{
-.icons-rrss{
-    height: 30px;
-    width: 30px;
-    float: right;
-    margin: 10px;
-}
-}
-.legales{
-    @extend li;
-    text-decoration: none;
+    footer{
+        .icons-rrss{
+            height: 30px;
+            width: 30px;
+            float: right;
+            margin: 10px;
+        }
+        .legales{
+            @extend li;
+            text-decoration: none;
+        }
     }
-
- 
+}
