@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+* {
+  font-size: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  color: rgb(14, 10, 10);
+  text-align: left;
+  height: auto;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body header {
+  overflow: hidden;
+}
+body header image {
+  object-fit: cover;
+}
+body main h1 {
+  padding: 50px;
+  text-align: center;
+}
+body main div h2, body main div h3, body main div h4, body main div h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main div p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main section article {
+  width: 20rem;
+  height: 35rem;
+}
+body .img-index {
+  height: 300px;
+}
+body .card-img {
+  object-fit: cover;
+  place-items: center;
+}
+
+.icons-px { /*logo*/
+  height: 100px;
+  width: auto;
+  padding: 20px;
+  margin-left: 0;
+}
+
+.icons-rrss {
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin: 10px;
+}
+
+nav li:hover {
+  font-weight: bold;
+}
+
+.index-grid {
+  place-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-areas: "i1 i2 i3 i4";
+}
+
+.i1 {
+  grid-area: i1;
+}
+
+.i2 {
+  grid-area: i2;
+}
+
+.i3 {
+  grid-area: i3;
+}
+
+.i4 {
+  grid-area: i4;
+}
+
+@media (width < 1224px) {
+  .index-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "i1 i2" "i3 i4";
+  }
+}
+@media (Width < 600px) {
+  .index-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "i1" "i2" "i3" "i4";
+  }
+}
+@media (width < 1024px) {
+  main .text {
+    margin-left: 10px;
+    margin-left: 10px;
+  }
+}
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "s1 s3 s5 s7" "s2 s4 s6 s8";
+  place-items: center;
+}
+
+.s1 {
+  grid-area: s1;
+}
+
+.s2 {
+  grid-area: s2;
+}
+
+.s3 {
+  grid-area: s3;
+}
+
+.s4 {
+  grid-area: s4;
+}
+
+.s5 {
+  grid-area: s5;
+}
+
+.s6 {
+  grid-area: s6;
+}
+
+.s7 {
+  grid-area: s7;
+}
+
+.s8 {
+  grid-area: s8;
+}
+
+@media (width < 1394px) {
+  .d-grid {
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "s1 s3" "s2 s6" "s5 s7" "s4 s8";
+  }
+}
+@media (Width < 600px) {
+  .d-grid {
+    place-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: "s1" "s2" "s3" "s4" "s5" "s6" "s7" "s8";
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

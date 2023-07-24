@@ -1,0 +1,71 @@
+*{
+    font-family: $mainFont;
+    box-sizing: border-box;}
+
+p{
+    color:$pColors; 
+    text-align: left;
+    height: auto;
+    line-height: $lineHeight;
+    }
+
+body{
+margin: 0;
+padding: 0; 
+    header {
+        overflow: hidden;
+            image{
+            object-fit: cover;
+        }
+    }
+    main {
+        h1{
+            padding: 50px;
+            text-align: center;
+        }
+        div{
+            h2,h3,h4,h5{
+            @include flex (center,center);
+            }
+            p{
+            @include flex (center,center);    
+            }
+        }
+        section{
+            article{
+                width: 20rem; 
+                height: 35rem;
+            }
+        }
+    }
+    .img-index{
+        height: 300px;
+    }
+    .card-img {
+        object-fit: cover;
+        place-items: center;
+    }
+}
+
+
+.icons-px{   /*logo*/
+    height: 100px;
+    width: auto;
+    padding: 20px;
+    margin-left: 0;
+}
+
+footer{
+.icons-rrss{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 10px;
+}
+}
+.legales{
+    @extend li;
+    text-decoration: none;
+    }
+
+ 
