@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
 * {
-  font-size: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
 }
 
@@ -15,6 +15,12 @@ body {
   margin: 0;
   padding: 0;
 }
+body nav .icons-px {
+  height: 100px;
+  width: auto;
+  padding: 20px;
+  margin-left: 0;
+}
 body header {
   overflow: hidden;
 }
@@ -25,7 +31,7 @@ body main h1 {
   padding: 50px;
   text-align: center;
 }
-body main div h2, body main div h3, body main div h4, body main div h5 {
+body main div h2, body main div h3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +45,10 @@ body main section article {
   width: 20rem;
   height: 35rem;
 }
+body main .text {
+  padding: 100px;
+  text-align: left;
+}
 body .img-index {
   height: 300px;
 }
@@ -46,22 +56,20 @@ body .card-img {
   object-fit: cover;
   place-items: center;
 }
-
-.icons-px { /*logo*/
-  height: 100px;
-  width: auto;
-  padding: 20px;
-  margin-left: 0;
-}
-
-.icons-rrss {
+body footer .icons-rrss {
   height: 30px;
   width: 30px;
   float: right;
   margin: 10px;
 }
+body footer .legales {
+  text-decoration: none;
+}
+body footer .legales a:visited {
+  color: gray;
+}
 
-nav li:hover {
+nav li:hover, nav body footer .legales:hover, body footer nav .legales:hover {
   font-weight: bold;
 }
 

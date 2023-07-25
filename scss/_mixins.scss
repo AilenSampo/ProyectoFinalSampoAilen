@@ -6,7 +6,7 @@
 }
 
 
-@mixin header ($padding, $align,){
+@mixin text ($padding, $align){
     padding: $padding;
     text-align:$align;
 }

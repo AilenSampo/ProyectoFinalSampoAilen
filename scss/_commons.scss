@@ -1,6 +1,7 @@
 *{
     font-family: $mainFont;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    }
 
 p{
     color:$pColors; 
@@ -18,21 +19,21 @@ padding: 0;
             width: auto;
             padding: 20px;
             margin-left: 0;
+            }
         }
-    }
     header {
         overflow: hidden;
             image{
             object-fit: cover;
+            }
         }
-    }
     main {
         h1{
             padding: 50px;
             text-align: center;
         }
         div{
-            h2,h3,h4,h5{
+            h2,h3{
             @include flex (center,center);
             }
             p{
@@ -45,6 +46,9 @@ padding: 0;
                 height: 35rem;
             }
         }
+        .text{
+        @include text (100px,left)
+        }  
     }
     .img-index{
         height: 300px;
@@ -61,8 +65,11 @@ padding: 0;
             margin: 10px;
         }
         .legales{
-            @extend li;
             text-decoration: none;
+            @extend li;  
+        }
+        .legales a:visited {
+            color: gray;
         }
     }
 }
