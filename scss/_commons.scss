@@ -66,7 +66,8 @@ padding: 0;
         }
         .legales{
             text-decoration: none;
-            @extend li;  
+            @extend li;
+            color:$pColors;  
         }
         .legales a:visited {
             color: gray;

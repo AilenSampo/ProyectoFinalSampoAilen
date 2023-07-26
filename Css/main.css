@@ -64,6 +64,7 @@ body footer .icons-rrss {
 }
 body footer .legales {
   text-decoration: none;
+  color: rgb(14, 10, 10);
 }
 body footer .legales a:visited {
   color: gray;
