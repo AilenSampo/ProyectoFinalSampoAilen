@@ -123,5 +123,14 @@ grid-area: i4;
     }
 }
 
+@media (Width < 300px){
+    p{
+        $textMd:1.1em;
+        } 
+}
 
-
+@media (Width < 800px){
+    p{
+        $textLg:1.7em;
+        }  
+}

@@ -39,6 +39,13 @@ padding: 0;
             p{
             @include flex (center,center);    
             }
+        #carouselExampleCaptions {
+                padding-bottom: 20px;
+                .carousel-control-prev,
+                .carousel-control-next {
+              z-index: 5;
+            }
+              }
         }
         section{
             article{
@@ -47,7 +54,7 @@ padding: 0;
             }
         }
         .text{
-        @include text (100px,left)
+        @include text (20px,left)
         }  
     }
     .img-index{

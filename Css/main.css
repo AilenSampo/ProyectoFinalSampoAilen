@@ -41,12 +41,19 @@ body main div p {
   justify-content: center;
   align-items: center;
 }
+body main div #carouselExampleCaptions {
+  padding-bottom: 20px;
+}
+body main div #carouselExampleCaptions .carousel-control-prev,
+body main div #carouselExampleCaptions .carousel-control-next {
+  z-index: 5;
+}
 body main section article {
   width: 20rem;
   height: 35rem;
 }
 body main .text {
-  padding: 100px;
+  padding: 20px;
   text-align: left;
 }
 body .img-index {
