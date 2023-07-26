@@ -35,6 +35,6 @@ scss/vars: Variables de SCSS utilizadas en el proyecto.<br>
 scss/main: Archivos principales de SCSS…<br>
 <a href="http://README.md">README.md</a>: Archivo README con información sobre el proyecto.<br>
 estado: son los hechos hechos hasta el momento.</p>
-<p class="has-line-data" data-line-start="50" data-line-end="51">A continuacion esta el link de Deployment:</p>
+<p class="has-line-data" data-line-start="50" data-line-end="51">A continuacion esta el link de Deployment:https://ailensampo.github.io/ProyectoFinalSampoAilen/index.html</p>
 <p class="has-line-data" data-line-start="52" data-line-end="54">y el link del sitio subido a un hosting:<br>
 Saludos.</p>
